@@ -15,5 +15,7 @@ sudo rsync -av wordpress/* /var/www/html/
 sudo chown -R www-data:www-data /var/www/html/
 sudo chmod -R 755 /var/www/html/
 sudo cp /var/www/html/wp-config-sample.php /var/www/html/wp-config.php
+sudo apt-get install php5-curl -y
 sudo service apache2 restart
+sudo mv /var/www/html/index.html /var/www/html/index.html.bak
 sleep 20

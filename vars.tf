@@ -1,6 +1,6 @@
 variable aws_reg {
   description = "This is aws region"
-  default     = "eu-west-2"
+  default     = "us-west-2"
   type        = string
 }
 
@@ -10,15 +10,15 @@ variable stack {
 }
 
 variable username {
-  description = "DB username"
+  description = "wordpress"
 }
 
 variable password {
-  description = "DB password"
+  description = "Wordpre$$"
 }
 
 variable dbname {
-  description = "db name"
+  description = "wordpress"
 }
 
 variable ssh_key {
